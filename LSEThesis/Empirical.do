@@ -1,4 +1,4 @@
-use "/Users/austinli/Desktop/Thesis Codes/Data/cgss2017.dta", clear
+use "", clear
 gen gender=a2
 replace gender=0 if a2>=2
 *汉=1，其他=0
